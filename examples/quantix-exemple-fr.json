@@ -1,0 +1,84 @@
+{
+  "format": "quantix-btp-backup",
+  "version": 1,
+  "data": {
+    "contributor": {
+      "name": "Amina Nguema",
+      "role": "Propriétaire",
+      "otherRole": "",
+      "phone": "679000030",
+      "dialCode": "+237",
+      "email": "amina.nguema@example.cm"
+    },
+    "project": {
+      "name": "Exemple — maison familiale",
+      "buildingType": "Maison",
+      "buildingTypeOther": "",
+      "location": "Bonamoussadi, Douala",
+      "notes": "Exemple illustratif. Les quantités et prix sont fictifs et ne constituent pas une estimation réelle.",
+      "currency": "XAF",
+      "stage": "Fondations et infrastructure"
+    },
+    "quote": {
+      "stage": "Fondations et infrastructure",
+      "currentSection": 0,
+      "saved": true,
+      "sections": [
+        {
+          "id": "example-materials",
+          "title": "Ressources illustratives",
+          "catalogTitle": false,
+          "description": "",
+          "kind": "other",
+          "mode": "manual",
+          "contingency": 5,
+          "toConfirm": [],
+          "params": {},
+          "items": [
+            {
+              "designation": "Ressource illustrative",
+              "catalogDesignation": false,
+              "quantity": "12",
+              "unit": "pièce",
+              "customUnit": "",
+              "unitPrice": "2500",
+              "assisted": false,
+              "precision": "Donnée fictive à remplacer par les mesures et prix réels.",
+              "applicable_a": [
+                "tous"
+              ]
+            }
+          ],
+          "equipmentItems": []
+        }
+      ]
+    },
+    "stageChecks": [
+      [
+        "Fondations et infrastructure",
+        {
+          "stage": "Fondations et infrastructure",
+          "answers": {
+            "plans": "yes",
+            "sitePrep": "yes",
+            "siteSetup": "yes"
+          }
+        }
+      ]
+    ],
+    "exportLanguage": "fr",
+    "savedAt": ""
+  },
+  "locale": "fr",
+  "demo": {
+    "quantity": "12",
+    "unitPrice": "2500",
+    "equipmentQuantity": "2",
+    "equipmentUnitPrice": "15000",
+    "rentalDuration": "3",
+    "rentalUnitPrice": "10000",
+    "precision": "Donnée fictive à remplacer par les mesures et prix réels.",
+    "laborQuantity": "5",
+    "laborUnitPrice": "20000"
+  }
+}

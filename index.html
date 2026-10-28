@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6fa">
+    <meta name="description" content="Préparez un devis de gros œuvre, étape par étape, avec Quantix BTP.">
+    <title>Quantix BTP — Le budget du chantier, en clair</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="./src/phone-countries.js" defer></script>
+    <script src="./src/quote-calculations.js" defer></script>
+    <script src="./src/quote-catalog.js" defer></script>
+    <script src="./src/quote-storage.js" defer></script>
+    <script src="./src/quote-exports.js" defer></script>
+    <script id="quantix-example-fr" type="application/json">{"format":"quantix-btp-backup","version":1,"data":{"contributor":{"name":"Amina Nguema","role":"Propriétaire","otherRole":"","phone":"679000030","dialCode":"+237","email":"amina.nguema@example.cm"},"project":{"name":"Exemple — maison familiale","buildingType":"Maison","buildingTypeOther":"","location":"Bonamoussadi, Douala","notes":"Exemple illustratif. Les quantités et prix sont fictifs et ne constituent pas une estimation réelle.","currency":"XAF","stage":"Fondations et infrastructure"},"quote":{"stage":"Fondations et infrastructure","currentSection":0,"saved":true,"sections":[{"id":"example-materials","title":"Ressources illustratives","catalogTitle":false,"description":"","kind":"other","mode":"manual","contingency":5,"toConfirm":[],"params":{},"items":[{"designation":"Ressource illustrative","catalogDesignation":false,"quantity":"12","unit":"pièce","customUnit":"","unitPrice":"2500","assisted":false,"precision":"Donnée fictive à remplacer par les mesures et prix réels.","applicable_a":["tous"]}],"equipmentItems":[]}]},"stageChecks":[["Fondations et infrastructure",{"stage":"Fondations et infrastructure","answers":{"plans":"yes","sitePrep":"yes","siteSetup":"yes"}}]],"exportLanguage":"fr","savedAt":""},"locale":"fr","demo":{"quantity":"12","unitPrice":"2500","equipmentQuantity":"2","equipmentUnitPrice":"15000","rentalDuration":"3","rentalUnitPrice":"10000","precision":"Donnée fictive à remplacer par les mesures et prix réels.","laborQuantity":"5","laborUnitPrice":"20000"}}</script>
+    <script id="quantix-example-en" type="application/json">{"format":"quantix-btp-backup","version":1,"data":{"contributor":{"name":"Amina Nguema","role":"Propriétaire","otherRole":"","phone":"679000030","dialCode":"+237","email":"amina.nguema@example.cm"},"project":{"name":"Example — family home","buildingType":"Maison","buildingTypeOther":"","location":"Bonamoussadi, Douala","notes":"Illustrative example. Quantities and prices are fictional and are not a real estimate.","currency":"XAF","stage":"Fondations et infrastructure"},"quote":{"stage":"Fondations et infrastructure","currentSection":0,"saved":true,"sections":[{"id":"example-materials","title":"Ressources illustratives","catalogTitle":false,"description":"","kind":"other","mode":"manual","contingency":5,"toConfirm":[],"params":{},"items":[{"designation":"Ressource illustrative","catalogDesignation":false,"quantity":"12","unit":"pièce","customUnit":"","unitPrice":"2500","assisted":false,"precision":"Fictional data. Replace with actual measurements and prices.","applicable_a":["tous"]}],"equipmentItems":[]}]},"stageChecks":[["Fondations et infrastructure",{"stage":"Fondations et infrastructure","answers":{"plans":"yes","sitePrep":"yes","siteSetup":"yes"}}]],"exportLanguage":"en","savedAt":""},"locale":"en","demo":{"quantity":"12","unitPrice":"2500","equipmentQuantity":"2","equipmentUnitPrice":"15000","rentalDuration":"3","rentalUnitPrice":"10000","precision":"Fictional data. Replace with actual measurements and prices.","laborQuantity":"5","laborUnitPrice":"20000"}}</script>
+    <script src="./src/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Quantix BTP — Accueil" data-home>
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="M3.5 10.5 12 4l8.5 6.5v9a.9.9 0 0 1-.9.9h-5.1v-6.1h-5v6.1H4.4a.9.9 0 0 1-.9-.9z" />
+            <path d="M2.5 10.2 12 3l9.5 7.2" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">Quantix <b>BTP</b></span>
+          <span class="brand-tagline">Le budget du chantier, en clair.</span>
+        </span>
+      </a>
+      <div class="header-tools">
+        <span class="local-status"><i aria-hidden="true"></i><span>Mode local · sans compte</span></span>
+        <label class="header-select-label"><span class="sr-only">Langue</span><select class="header-select" data-language aria-label="Langue"><option value="fr">FR</option><option value="en">EN</option></select></label>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Activer le thème sombre">◐</button>
+        <span class="contributor-context" data-contributor-context hidden><b data-contributor-name></b><small data-contributor-role></small></span>
+        <span class="contributor-avatar" data-avatar hidden aria-label="Contributeur"></span>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+  </body>
+</html>
